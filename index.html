@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1>Tic Tac Toe</h1>
+			<div id="turno">Es turno de X</div>
+		</div>
+		<div class="game">
+			<div class="fu-man-chu">
+				<div class="position" onclick="marcar(this, 0);"></div>
+				<div class="position" onclick="marcar(this, 1);"></div>
+				<div class="position" onclick="marcar(this, 2);"></div>
+				<div class="position" onclick="marcar(this, 3);"></div>
+				<div class="position" onclick="marcar(this, 4);"></div>
+				<div class="position" onclick="marcar(this, 5);"></div>
+				<div class="position deleteBottom" onclick="marcar(this, 6);"></div>
+				<div class="position deleteBottom" onclick="marcar(this, 7);"></div>
+				<div class="position deleteBottom" onclick="marcar(this, 8);"></div>
+			</div>
+		</div>
+
+		<div>
+			<div class="btn" onclick="nuevo();">
+				Nuevo Juego
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

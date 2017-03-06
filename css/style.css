@@ -1,0 +1,62 @@
+html, body{
+	font-family: arial,sans-serif;
+	background: #14bdac;
+	height: 100%;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+.game{
+	width: 100%;
+	margin: 100px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fu-man-chu{
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: rgba(84, 84, 84, 0.4);
+	margin-bottom: -5px;
+}
+
+.fu-man-chu .position{
+	width: 32%;
+	height: 100px;
+	background: #14bdac;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	color: rgba(84, 84, 84, 1);
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.fu-man-chu .position:hover{
+	background: rgba(0, 0, 0, 0.1);
+	transition: 400ms;
+}
+
+.deleteBottom{
+	margin-bottom: 0px !important;
+}
+
+.btn{
+	padding: 10px 30px;
+	background: green;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	border: 1px solid DarkGreen;
+}
+.btn:hover{
+	background: DarkGreen;
+	transition: 200ms;
+}
